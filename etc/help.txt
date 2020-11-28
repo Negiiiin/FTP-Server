@@ -1,0 +1,12 @@
+214
+USER [name], Its argument is used to specify the user's string. It is used for user authentication.
+PASS [password], Its argument is used to specify the user's password. It is used for user authentication.
+PWD, Print working directory.
+MKD [pathname], Causes the directory specified in the pathname to be created on the server.
+MKD -i [filename], File is created in the client's current working directory.
+RMD [pathname], Causes the directory specified to be removed. 
+RMD -i [filename], File with specified filename is removed in the client's current working directory.
+CWD [pathname], Change working directory to specified pathname.
+LIST, Returns information of the current working directory is returned.
+DL [filename], Download specified file in the client's current working directory.
+QUIT, Disconnect.

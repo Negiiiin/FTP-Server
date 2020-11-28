@@ -1,0 +1,77 @@
+{
+  "commandChannelPort": 8000,
+  "dataChannelPort":8001,
+  "users": [
+    {
+      "user": "navid",
+      "password": "1234"
+    },
+    {
+      "user": "farzad",
+      "password": "5678"
+    },
+    {
+      "user": "baek",
+      "password": "*!&@#&^$%_"
+    },
+    {
+      "user": "sam",
+      "password": "111"
+    },
+    {
+      "user": "negin",
+      "password": "1111"
+    }
+  ],
+  "accounting": {
+    "enable": false,
+    "threshold": 100,
+    "users": [
+      {
+        "user": "navid",
+        "size": "12000",
+        "email": "navid@akbari.com",
+        "alert": true
+      },
+      {
+        "user": "farzad",
+        "size": "150000000",
+        "email": "farzad@ahabibi.com",
+        "alert": false
+      },
+      {
+      	"user": "baek",
+      	"size": "9",
+        "email": "neginbaghbanzadeh@ut.ac.ir",
+        "alert": true
+      },
+      {
+      	"user": "sam",
+      	"size": "10000000",
+        "email": "alikeramatipour@gmail.com",
+        "alert": false
+      },
+      {
+      	"user": "negin",
+      	"size": "2",
+        "email": "neginbaghbanzade@ut.ac.ir",
+        "alert": true
+       }
+    ]
+  },
+  "logging": {
+    "enable": true,
+    "path": "./logs.log"
+  },
+  "authorization": {
+    "enable": false,
+    "admins": [
+      "farzad"
+    ],
+    "files": [
+      "./etc/config.json",
+      "./dir/a.txt",
+    ]
+  }
+    
+}
